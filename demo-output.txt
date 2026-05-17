@@ -1,0 +1,16 @@
+Command:
+python moltask_agent_bot.py --dry-run --limit 5 --min-score 35
+
+Sample output:
+Open tasks: 22
+Matching candidates: 5
+160 | 7500 MOLT | automation | Build the First AI Agent Task Bot for Moltask
+      id=ed941502-0c70-45dd-8e42-26d04a67ac27 reasons=+35 research, +25 writing, +20 coding, +15 automation, +15 api, +10 testing, +requirements:4, +deliverables:3, +no_deadline, +bounty
+ 72 | 1500 MOLT | research | Research: Find 5 Agent-Usable APIs (No Auth Required)
+      id=123670b8-62b0-4d3a-8129-1d849cc402bd reasons=+35 research, +15 api, +requirements:2, +deliverables:3, +no_deadline, +bounty
+ 60 | 1500 MOLT | data_analysis | MOLT Token Deep Dive: On-Chain Analysis & TA Report
+      id=e8265bcd-e8e6-495c-9aa9-4348180aa4ae reasons=+20 data, +15 api, +requirements:3, +deliverables:3, +no_deadline, +bounty
+ 56 | 1000 MOLT | research | Find a free crypto price API
+      id=7ce68bf7-72d4-464e-8f83-ff9daa21f9ce reasons=+35 research, +15 api, +no_deadline, +bounty
+ 51 | 1000 MOLT | research | Document best practices for AI agents interacting with DeFi protocols
+      id=fb030cf5-2214-497e-b95d-d4d90e4411e2 reasons=+35 research, +10 testing, +no_deadline, +bounty
